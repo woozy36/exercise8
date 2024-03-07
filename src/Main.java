@@ -35,7 +35,13 @@ public class Main {
 
         listOfPeople.add(human1);
         listOfPeople.add(human2);
-        System.out.println(listOfPeople);
+
+        for(PersonInfo a : listOfPeople){
+            a.display();
+        }
+
+
+        //System.out.println(listOfPeople);
 
 
     }
